@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Caroosel */
+.carousel-control-next {
+  justify-content: end;
+  width: fit-content;
+}
+.carousel-control-next-icon {
+  width: 60%;
+}
+
+.carousel-control-prev {
+  width: fit-content;
+  justify-content: start;
+}
+.carousel-control-prev-icon {
+  width: 60%;
+}
+
+.carousel-control-next-box-icon {
+  width: 30px;
+  height: 50px;
+  background-color: #555555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50em 0 0 50em;
+}
+.carousel-control-prev-box-icon {
+  width: 30px;
+  height: 50px;
+  background-color: #555555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 50em 50em 0;
+}
+
+.carousel-inner:hover {
+  overflow: visible;
+}
+
+/* Product Card */
+.product-card {
+  height: 400px;
+  background-color: #fff;
+}
+
+.product-card:hover {
+  cursor: pointer;
+}
+
+.product-card-icon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-in-card {
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.product-card-hover {
+  position: relative;
+  z-index: 3;
+}
+
+.border-dark {
+  border-color: #0006 !important;
+}
